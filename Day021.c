@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int t,n=0,k=0,a,b;
+	int t,n=0,k=0,a;
 	int arr[n],arrn[k];
 	int i,j,p;
 	printf("Enter Numer of Inputs: ");
@@ -23,9 +23,9 @@ int main(){
 				}
 			}
 		}
-		for(b=0;b<n;b++){
-			if(arr[b]!=-1){
-				printf("%d ",arr[b]);
+		for(a=0;a<n;a++){
+			if(arr[a]!=-1){
+				printf("%d ",arr[a]);
 			}	
 		}
 		printf("\n");
