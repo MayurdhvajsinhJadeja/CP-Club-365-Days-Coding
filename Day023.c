@@ -7,16 +7,16 @@
 
 int marks_summation(int* marks, int number_of_students, char gender) {
     //Write your code here.
-    int i, sum=0;
+    int i, total=0;
     for(i=0;i<number_of_students;i++){
         if(gender=='g' && i%2!=0){
-            sum+=marks[i]; 
+            total+=marks[i]; 
         }
         else if(gender=='b' && i%2==0){
-            sum+=marks[i]; 
+            total+=marks[i]; 
         }     
     }
-    return sum;
+    return total;
 }
 
 int main() {
